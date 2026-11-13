@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /superadmin/
+Disallow: /siswa/
+Disallow: /guru/
+Disallow: /pegawai/
+Disallow: /payments/
+Disallow: /media/
+Disallow: /storage/absen/
+Disallow: /daftar/
+Disallow: /mulai/
+
+Sitemap: https://mwork.masimasa.my.id/sitemap.xml

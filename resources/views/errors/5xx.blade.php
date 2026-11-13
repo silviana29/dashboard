@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => method_exists($exception, 'getStatusCode') ? $exception->getStatusCode() : '500', 'title' => 'Sistem sedang mengalami gangguan', 'message' => 'Permintaan belum dapat diselesaikan. Silakan coba kembali beberapa saat lagi.', 'icon' => '⚠', 'accent' => '#e11d48'])

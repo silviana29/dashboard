@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => '429', 'title' => 'Terlalu banyak permintaan', 'message' => 'Tunggu sebentar sebelum mencoba kembali. Pembatasan ini membantu menjaga layanan tetap aman dan stabil.', 'icon' => '↻', 'accent' => '#d97706'])

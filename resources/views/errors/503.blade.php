@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => '503', 'title' => 'Layanan sementara tidak tersedia', 'message' => 'Sistem sedang menjalani pemeliharaan atau menerima beban tinggi. Silakan coba kembali sebentar lagi.', 'icon' => '⚙', 'accent' => '#0f766e'])

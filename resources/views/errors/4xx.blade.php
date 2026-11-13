@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => $exception?->getStatusCode() ?? '400', 'title' => 'Permintaan tidak dapat diproses', 'message' => 'Halaman atau tindakan yang diminta tidak tersedia untuk permintaan ini.', 'icon' => '!', 'accent' => '#d97706'])

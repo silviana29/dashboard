@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => '419', 'title' => 'Sesi telah berakhir', 'message' => 'Halaman terlalu lama terbuka atau token keamanan sudah kedaluwarsa. Silakan kembali dan muat ulang sebelum mengirim data.', 'icon' => '◷', 'accent' => '#d97706'])

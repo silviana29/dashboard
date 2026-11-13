@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => '500', 'title' => 'Terjadi gangguan', 'message' => 'Server tidak dapat menyelesaikan permintaan Anda saat ini. Data Anda tetap aman; silakan coba kembali beberapa saat lagi.', 'icon' => '⚠', 'accent' => '#e11d48'])

@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => '403', 'title' => 'Akses ditolak', 'message' => 'Akun Anda tidak memiliki izin untuk membuka halaman ini. Kembali ke halaman utama untuk melanjutkan sesuai peran Anda.', 'icon' => '⊘', 'accent' => '#e11d48'])

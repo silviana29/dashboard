@@ -1,0 +1,1 @@
+@include('errors.page', ['code' => '404', 'title' => 'Halaman tidak ditemukan', 'message' => 'Alamat yang Anda buka mungkin salah, sudah dipindahkan, atau tidak lagi tersedia.', 'icon' => '⌕', 'accent' => '#4f46e5'])
